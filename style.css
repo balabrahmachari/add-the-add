@@ -1,0 +1,94 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+section>#h{
+    height: 15vh;
+    width: 100%;
+    border: 2px solid blue;
+    background: linear-gradient(blue,white,darkgreen);
+    
+}
+#a{
+    height: 49.5vh;
+}
+#a>#m{
+    height: 4.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid;
+}
+#a>#m>button{
+    height: 90%;
+    width: 15%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    cursor: pointer;
+}
+#a>#m>button>h1{
+    color: blue;
+
+}
+#a>#m>button>i{
+    margin-left: 10px;
+    color:red;
+    
+}
+
+#a>#b{
+    height: 30vh;
+    width: 100%;
+    background-color:orange;
+    position: absolute;
+    top: 150px;
+    
+}
+.a1:hover{
+    
+    box-shadow: 1px 0.1px 20px yellow;
+}
+.a1{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-left: 190vh;
+    margin-top: 23vh;
+    border-radius: 200px;
+    background-color: yellow;
+}
+.a11{
+    height: 40px;
+    width: 12%;
+    margin-top: -40px;
+    margin-left: 161vh;
+    border-radius: 200px;
+    background-color: yellow;
+    position: relative;
+    display: none;
+}
+.a11>h1{
+    font-size: xx-large;
+    text-align: center;
+}
+/* -------------------below banner----------------------------------- */
+.bb{
+    height: 50.5vh;
+    width: 100%;
+    border: 2px solid;
+}
+.bb>table{
+    height:100%;
+    width: 100%;
+    border: 2px solid black;
+}
